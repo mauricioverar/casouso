@@ -33,6 +33,8 @@ public class App {
             total += ventas[i]; // acumulando el total de las ventas
         }
         System.out.println("total de ventas: " + total); // 2800
+        Double promedio = total / ventas.length; // promedio de las ventas
+        System.out.println("Promedio de ventas: " + promedio); // 400.0
     }
 }
 
